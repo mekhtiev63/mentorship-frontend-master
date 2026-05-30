@@ -1,0 +1,78 @@
+.rbc-calendar-dark {
+  color: #f8fafc;
+  font-family: inherit;
+}
+
+.rbc-calendar-dark .rbc-toolbar {
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rbc-calendar-dark .rbc-toolbar button {
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(17, 24, 39, 0.65);
+  border-radius: 8px;
+  padding: 6px 12px;
+}
+
+.rbc-calendar-dark .rbc-toolbar button:hover,
+.rbc-calendar-dark .rbc-toolbar button.rbc-active {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.35), rgba(124, 58, 237, 0.35));
+  border-color: rgba(59, 130, 246, 0.45);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+.rbc-calendar-dark .rbc-header {
+  padding: 10px 4px;
+  font-weight: 600;
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #94a3b8;
+}
+
+.rbc-calendar-dark .rbc-month-view,
+.rbc-calendar-dark .rbc-time-view {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(16px);
+}
+
+.rbc-calendar-dark .rbc-day-bg + .rbc-day-bg,
+.rbc-calendar-dark .rbc-month-row + .rbc-month-row {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.rbc-calendar-dark .rbc-off-range-bg {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.rbc-calendar-dark .rbc-today {
+  background: rgba(59, 130, 246, 0.12);
+}
+
+.rbc-calendar-dark .rbc-event {
+  border: none;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rbc-calendar-dark .rbc-time-slot {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.rbc-calendar-dark .rbc-timeslot-group {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.rbc-calendar-dark .rbc-time-content {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.rbc-calendar-dark .rbc-current-time-indicator {
+  background-color: #8b5cf6;
+}

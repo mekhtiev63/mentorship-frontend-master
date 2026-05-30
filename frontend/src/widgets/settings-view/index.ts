@@ -1,0 +1,8 @@
+export { SettingsScreen } from '@/widgets/settings-view/ui/SettingsScreen'
+export { SettingsPageSkeleton } from '@/widgets/settings-view/ui/SettingsPageSkeleton'
+export { SettingsEmptyState } from '@/widgets/settings-view/ui/SettingsEmptyState'
+export { AccountSettingsCard } from '@/widgets/settings-view/ui/AccountSettingsCard'
+export { SecuritySettingsCard } from '@/widgets/settings-view/ui/SecuritySettingsCard'
+export { NotificationSettingsCard } from '@/widgets/settings-view/ui/NotificationSettingsCard'
+export { AppearanceSettingsCard } from '@/widgets/settings-view/ui/AppearanceSettingsCard'
+export { AboutPlatformCard } from '@/widgets/settings-view/ui/AboutPlatformCard'

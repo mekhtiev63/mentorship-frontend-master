@@ -1,0 +1,6 @@
+export { MaterialsListView } from '@/widgets/materials-list/ui/MaterialsListView'
+export { MaterialCard } from '@/widgets/materials-list/ui/MaterialCard'
+export { BlockOverviewView } from '@/widgets/materials-list/ui/BlockOverviewView'
+export { MaterialDetailView } from '@/widgets/materials-list/ui/MaterialDetailView'
+export { MaterialsListSkeleton, BlockOverviewSkeleton } from '@/widgets/materials-list/ui/MaterialsListSkeleton'
+export { MaterialsEmptyState } from '@/widgets/materials-list/ui/MaterialsEmptyState'
